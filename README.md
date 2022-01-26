@@ -5,7 +5,14 @@ looks up in list_2 for simmilar strings. It uses multiple algorithms to evaluate
 including the posibility to account for word arrangement, partial matches  and repetitions.
 Returns a list of tuples with the best possible match of every list_1 element, and a score from
 0 to 100 being 100 a perfect match.   
-    
+
+Requirements
+-----------
+* Python 2.7 or higher
+* difflib
+* python-Levenshtein (optional, provides a 4-10x speedup in String Matching, though may result in differing results for certain cases)
+* thefuzz package
+
 Use case
 --------
 You have a list of manually typed data (e.g. list of names) with small mistakes (transcription error, OCR error, transposition, etc) and have to look up in a register
