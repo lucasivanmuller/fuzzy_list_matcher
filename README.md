@@ -40,5 +40,8 @@ Out:
 [('John Doe', 'Doe John', 100),
  ('Jane Doenna', 'Jaene Doenna', 96),
  ('Kirk Stewart', 'Kirc Steward', 83),
- ('Mark Spyder', 'Mark Spyderbanana', 79)]
+ ('Mark Spyder', 'Mark Spyderbanana', 100)]
 ```
+
+### Acknowledges:
+- @seatgeek for creating the package thefuzz, the angular stone of this package.
