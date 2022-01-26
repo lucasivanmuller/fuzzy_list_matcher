@@ -11,7 +11,7 @@ Requirements
 * Python 2.7 or higher
 * difflib
 * python-Levenshtein (optional, provides a 4-10x speedup in String Matching, though may result in differing results for certain cases)
-* thefuzz package
+* [thefuzz](https://github.com/seatgeek/thefuzz) package
 
 Use case
 --------
@@ -51,4 +51,4 @@ Out:
 ```
 
 ### Acknowledges:
-- @seatgeek for creating the package thefuzz, the angular stone of this package.
+- [seatgeek](https://github.com/seatgeek/) for creating the package thefuzz, the angular stone of this package.
