@@ -26,3 +26,19 @@
     -------
     matches : List of tuples [(string list_1 original, string list_2_match, int score 0-100)]
 
+Example
+```
+name_list = ["John Doe", "Jane Doenna", "Kirk Stewart", "Mark Spyder"]
+name_list_2 = ["Jaene Doenna", "Doe John", "Jonhy B Bad", "Kirc Steward", "Mark Spyderbanana", "Orange123"]
+test = fuzzy_match_lists(name_list, name_list_2)
+print(test)
+```
+
+Returns
+
+```
+[('John Doe', 'Doe John', 100),
+ ('Jane Doenna', 'Jaene Doenna', 96),
+ ('Kirk Stewart', 'Kirc Steward', 83),
+ ('Mark Spyder', 'Mark Spyderbanana', 79)]
+```
